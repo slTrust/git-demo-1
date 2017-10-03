@@ -12,7 +12,7 @@ function show(count,ele){
         
         if(count<=0) {
             clearInterval(timer);
-            timer = null;
+            timer = null ;
             ele.innerHTML = '';
             document.getElementById('info').style.display = 'block';
         }
